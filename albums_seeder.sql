@@ -1,6 +1,6 @@
 USE codeup_test_db;
 
---Use this to clear albums before re-seeding--
+#Use this to clear albums before re-seeding
 truncate albums;
 
 insert into albums (artist, name, release_date, genre, sales)
