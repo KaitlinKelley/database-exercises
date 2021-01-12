@@ -1,5 +1,6 @@
 USE codeup_test_db;
 
+--Use this to clear albums before re-seeding--
 truncate albums;
 
 insert into albums (artist, name, release_date, genre, sales)
@@ -35,16 +36,16 @@ values ('Michael Jackson', 'Thriller', 1982, 'Pop, Rock, R&B', 47.3),
        ('Santana', 'Supernatural', 1999, 'Rock', 20.5),
        ('Guns N'' Roses', 'Appetite for Destruction', 1987, 'Hard rock', 21.6);
 
-INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Porcupine Tree', 'In Absentia', 2002,'Progressive Rock', 120000);
-INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Porcupine Tree', 'Lightbulb Sun', 2000, 'Progressive Rock', 75000);
-INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Queen', 'Night at the Opera', 1975, 'Rock', 120000);
-INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Katzenjammer', 'A Kiss Before You Go', 2011, 'Pop-Rock Dark-Cabaret Alternative', 0);
-INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Katzenjammer', 'Le Pop', 2008, 'Pop-Rock Dark-Cabaret Alternative', 0);
+INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Porcupine Tree', 'In Absentia', 2002,'Progressive Rock', 1.2);
+INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Porcupine Tree', 'Lightbulb Sun', 2000, 'Progressive Rock', 7.5);
+INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Queen', 'Night at the Opera', 1975, 'Rock', 12.2);
+INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Katzenjammer', 'A Kiss Before You Go', 2011, 'Pop-Rock Dark-Cabaret Alternative', 3.2);
+INSERT INTO albums (artist, name, release_date, genre, sales) VALUES ('Katzenjammer', 'Le Pop', 2008, 'Pop-Rock Dark-Cabaret Alternative', 2.4);
 
 INSERT INTO albums (artist, name, release_date, genre, sales) VALUES
-    ('Original London Cast', 'Les Miserables', 1985, 'Musical Soundtrack', 0),
-    ('Neko Case', 'Fox Confessor Brings The Flood', 2006, 'Alternative Country', 0),
-    ('Neko Case', 'Furnace Room Lullaby', 2000, 'Alternative Country', 0),
-    ('Stephen Trask and John Cameron Mitchell', 'Hedwig and the Angry Inch', 1999, 'Musical Soundtrack', 0),
-    ('Lucius', 'NUDES', 2018, 'Indie Pop', 0);
+    ('Original London Cast', 'Les Miserables', 1985, 'Musical Soundtrack', 5.5),
+    ('Neko Case', 'Fox Confessor Brings The Flood', 2006, 'Alternative Country', 3.3),
+    ('Neko Case', 'Furnace Room Lullaby', 2000, 'Alternative Country', 5.6),
+    ('Stephen Trask and John Cameron Mitchell', 'Hedwig and the Angry Inch', 1999, 'Musical Soundtrack', 2.3),
+    ('Lucius', 'NUDES', 2018, 'Indie Pop', 2.1);
 

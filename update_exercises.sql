@@ -11,15 +11,19 @@ SELECT * FROM albums;
 
 
 
+
 SELECT 'Show all albums release before 1980' AS '';
 SELECT name, release_date FROM albums WHERE release_date < 1980;
 
 UPDATE albums
-SET release_date = 1800
+SET release_date = (release_date - 100)
 WHERE release_date < 1980;
 
 SELECT 'AFTER UPDATE: Show all albums release before 1980' AS '';
 SELECT name, release_date FROM albums WHERE release_date < 1980;
+
+
+
 
 
 
