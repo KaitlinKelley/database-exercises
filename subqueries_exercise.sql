@@ -51,3 +51,12 @@ WHERE e.gender = 'F' AND t.title IN(
     )
 GROUP BY dept_name;
 
+SELECT e.first_name AS first_name, e.last_name AS last_name
+FROM employees AS e
+JOIN salaries s on e.emp_no = s.emp_no
+WHERE salary = (SELECT MAX(salary)
+                FROM salaries
+                ORDER BY salary);
+
+
+
